@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a> Главгая</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Фото и видео</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Форма отзыва</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+      </nav>
+      <a href="#" class="page-header__logo">
+        <imag class="page-header__logo-image" src="img/logotype-mobile.svg" width="102" height="83" alt="Sedona">
+      </a>
+      <div class="page-header__background-image--index"></div>
+    </header>
+
+    <main class="page-main">
+
+      <section class="content-header content-header--photo">
+        <h1 class="content-header__title">Фото и видео</h1>
+        <p class="content-header__intro">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+      </section>
+
+      <section class="photos">
+        <ul class="photos__list">
+          <li class="photos__item photo">
+            <a class="photo__image-container" href="#">
+              <img class="photo__image" src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt="Неродные просторы">
+            </a>
+            <div class="photo__options">
+              <h2 class="photo__title">Неродные просторы</h2>
+              <p class="photo__autor">Автор фото: Борис</p>
+              <div class="photo__likes-box">
+                <button class="photo__likes-button"><span class="visually-hidden">Лайк</span></button>
+                <b class="photo__likes-count">1350</b>
+              </div>
+            </div>
+          </li>
+          <li class="photos__item photo">
+            <a class="photo__image-container" href="#">
+              <img class="photo__image" src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" alt="Местная растительность">
+            </a>
+            <div class="photo__options">
+              <h2 class="photo__title">Местная растительность</h2>
+              <p class="photo__autor">Автор фото: Сергей</p>
+              <div class="photo__likes-box">
+                <button class="photo__likes-button"><span class="visually-hidden">Лайк</span></button>
+                <b class="photo__likes-count">143</b>
+              </div>
+            </div>
+          </li>
+          <li class="photos__item photo">
+            <a class="photo__image-container" href="#">
+              <img class="photo__image" src="img/photo-roads-mobile@1x.jpg" width="280" height="280" alt="Дорога на север">
+            </a>
+            <div class="photo__options">
+              <h2 class="photo__title">Дорога на север</h2>
+              <p class="photo__autor">Автор фото: Петр</p>
+              <div class="photo__likes-box">
+                <button class="photo__likes-button"><span class="visually-hidden">Лайк</span></button>
+                <b class="photo__likes-count">96</b>
+              </div>
+            </div>
+          </li>
+          <li class="photos__item photo">
+            <a class="photo__image-container" href="#">
+              <img class="photo__image" src="img/photo-bridge-mobile@1x.jpg" width="280" height="280" alt="Мост дьявола">
+            </a>
+            <div class="photo__options">
+              <h2 class="photo__title">Мост дьявола</h2>
+              <p class="photo__autor">Автор фото: Антон</p>
+              <div class="photo__likes-box">
+                <button class="photo__likes-button"><span class="visually-hidden">Лайк</span></button>
+                <b class="photo__likes-count">254</b>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="presentation">
+        <div class="presentation__header">
+          <h2 class="presentation__title">Все еще сомневаетесь?</h2>
+          <p class="presentation__intro">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        </div>
+        <div class="presentation__video">
+          <img class="presentation__image" src="img/video-mobile@1x.jpg" width="320" height="201" alt="Видеопрезентация">
+        </div>
+
+        <div class="presentation__options">
+          <div class="presentation__scrollbar">
+            <div class="presentation__roller"></div>
+          </div>
+          <div class="presentation__controls">
+            <div class="presentation__replay"></div>
+            <div class="presentation__cc"></div>
+            <div class="presentation__screen-size"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <b class="page-footer__hashtag">#visitsedona</b>
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item social__item--twitter">
+            <a class="social__link social__link--twitter" href="#">
+              <span class="visually-hidden">Твиттер</span>
+            </a>
+          </li>
+          <li class="social__item social__item--facebook">
+            <a class="social__link social__link--facebook" href="#">
+              <span class="visually-hidden">Фэйсбук</span>
+            </a>
+          </li>
+          <li class="social__item social__item--youtube">
+            <a class="social__link social__link--youtube" href="#">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <span class="copyright__text">Разработано</span>
+        <a class="copyright__link" href="https://htmlacademy.ru/">
+          <span class="visually-hidden">HTMLAcademy</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

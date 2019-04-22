@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a> Главгая</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Фото и видео</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Форма отзыва</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+      </nav>
+      <a href="#" class="page-header__logo">
+        <imag class="page-header__logo-image" src="img/logotype-mobile.svg" width="102" height="83" alt="Sedona">
+      </a>
+      <div class="page-header__background-image--index"></div>
+    </header>
+
+    <main class="page-main">
+
+      <section class="content-header content-header--form">
+        <h1 class="content-header__title">Оставьте свой отзыв</h1>
+        <p class="content-header__intro">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </section>
+
+      <section class="feedback">
+        <form class="forms" action="https://echo.htmlacademy.ru" method="post">
+
+          <div class="form user-initials">
+            <h2 class="user-initials__title">Представьтесь:</h2>
+            <div class="user-initials__item">
+              <label class="user-initials__label" for="name">Имя*:</label>
+              <input class="user-initials__input user-initials__input--name" type="text" name="name" id="name" placeholder="Петр">
+            </div>
+            <div class="user-initials__item">
+              <label class="user-initials__label" for="surname">Фамилия*:</label>
+              <input class="user-initials__input user-initials__input--surname" type="text" name="surname" id="surname" placeholder="Иванов">
+            </div>
+            <div class="user-initials__item">
+              <label class="user-initials__label" for="patronymic">Отчество:</label>
+              <input class="user-initials__input user-initials__input--patronymic" type="text" name="patronymic" id="patronymic" placeholder="Александрович">
+            </div>
+          </div>
+
+          <div class="form contacts">
+            <h2 class="contacts__title">Контактная информация:</h2>
+            <div class="contacts__item">
+              <label class="contacts__label" for="phone">
+                <span class="desktop-hidden">Контактный</span> телефон*:
+              </label>
+              <input class="contacts__input" type="tel" name="phone" id="phone" placeholder="Введите телефон">
+            </div>
+            <div class="contacts__item">
+              <label class="contacts__label" for="email">Электронная почта*:</label>
+              <input class="contacts__input" type="email" name="email" id="email" placeholder="Введите e-mail">
+            </div>
+          </div>
+
+          <div class="form impression">
+            <h2 class="impression__title">Ваше общее впечатление:</h2>
+            <div class="impression__item">
+              <label class="impression__label" for="positive">
+                <input class="visually-hidden" type="radio" name="impression" value="positive" id="positive" checked>
+              Скорее положительное</label>
+            </div>
+            <div class="impression__item">
+              <label class="impression__label" for="negative">
+                <input class="visually-hidden" type="radio" name="impression" value="negative" id="negative">
+              Скорее отрицательное</label>
+            </div>
+            <div class="impression__item">
+              <label class="impression__label" for="unknown">
+                <input class="visually-hidden" type="radio" name="impression" value="unknown" id="unknown">
+              Затрудняюсь ответить</label>
+            </div>
+          </div>
+
+          <div class="form landmarks">
+            <h2 class="landmarks__title">Посещенные достопримечательности:</h2>
+            <div class="landmarks__item">
+              <label class="landmarks__label" for="bridge">
+                <input class="visually-hidden" type="checkbox" name="bridge" id="bridge" checked>
+              Мост Дьявола</label>
+            </div>
+            <div class="landmarks__item">
+              <label class="landmarks__label" for="mountain">
+                <input class="visually-hidden" type="checkbox" name="mountain" id="mountain" checked>
+              Гора-Колокол</label>
+            </div>
+            <div class="landmarks__item">
+              <label class="landmarks__label" for="park">
+                <input class="visually-hidden" type="checkbox" name="park" id="park" checked>
+              Слайд-парк</label>
+            </div>
+            <div class="landmarks__item">
+              <label class="landmarks__label" for="rocks">
+                <input class="visually-hidden" type="checkbox" name="rocks" id="rocks">
+              Красные скалы</label>
+            </div>
+          </div>
+
+          <div class="form emotions">
+            <h2 class="emotions__title">Опишите свои эмоции:</h2>
+            <textarea class="emotions__textarea" placeholder="Опишите подробно все свои восторги"></textarea>
+          </div>
+
+          <div class="forms__footer">
+            <button class="forms__submit button" type="submit">Отправить отзыв</button>
+            <p class="forms__note">*-Обязательные поля</p>
+          </div>
+
+        </form>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <b class="page-footer__hashtag">#visitsedona</b>
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item social__item--twitter">
+            <a class="social__link social__link--twitter" href="#">
+              <span class="visually-hidden">Твиттер</span>
+            </a>
+          </li>
+          <li class="social__item social__item--facebook">
+            <a class="social__link social__link--facebook" href="#">
+              <span class="visually-hidden">Фэйсбук</span>
+            </a>
+          </li>
+          <li class="social__item social__item--youtube">
+            <a class="social__link social__link--youtube" href="#">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <span class="copyright__text">Разработано</span>
+        <a class="copyright__link" href="https://htmlacademy.ru/">
+          <span class="visually-hidden">HTMLAcademy</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
