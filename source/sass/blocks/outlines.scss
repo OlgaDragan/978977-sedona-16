@@ -1,0 +1,37 @@
+body {
+  background: $bg-white url("../img/sedona-index-mobile.jpg") no-repeat 50% 0;
+  background-size: 320px auto;
+  min-height: 750px;
+}
+
+
+@media (min-width: $tablet-width) {
+  body {
+    background: $bg-white url("../img/sedona-index-tablet.jpg") no-repeat 50% 0;
+    background-size: 768px auto;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  body {
+    background: $bg-white url("../img/sedona-index-desktop.jpg") no-repeat 50% 0;
+    background-size: 1280px auto;
+  }
+}
+.main-nav {
+  min-height: 223px;
+  border: 1px solid #b00000;
+}
+@media (min-width: $tablet-width) {
+  .main-nav {
+    order: 2;
+    min-height: 56px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    min-height: 56px;
+  }
+}
