@@ -1,0 +1,120 @@
+.page-main {
+  padding-top: 56px;
+
+  border: 2px solid #930000;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main {
+    width: 768px;
+    padding-top: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main {
+    width: 1200px;
+
+  }
+}
+.page-main__background-image {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  height: 390px;
+  background-position: center;
+  background-size: cover;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-image: url(../img/bg-intro-triangle-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -17px;
+    left: 0;
+    height: 60px;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+
+    z-index: 1;
+  }
+}
+
+.page-main__text-sedona {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  width: 280px;
+  height: 214px;
+  background: url(../img/text-sedona-index.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
+
+
+}
+@media (min-width: $tablet-width){
+  .page-main__background-image {
+    height: 518px;
+    width: 768px;
+    background-image: url(../img/bg-back-tablet@1x.jpg);
+  &::after {
+   width: 768px;
+   background-image: url(../img/bg-intro-triangle-tablet.svg);
+   background-position: center;
+   bottom: 0;
+
+  }
+  .page-main__text-sedona{
+    width: 460px;
+    height: 350px;
+    left: 150px;
+    top: 78px;
+  }
+}
+@media (min-width: $desktop-width) {
+  .page-main__background-image {
+    height: 518px;
+    width: 1200px;
+    background-image: url(../img/bg-back-desktop@1x.jpg);
+  &::after {
+   width: 1200px;
+   background-image: url(../img/bg-intro-triangle-desktop.svg);
+   background-position: center;
+   bottom: 0;
+
+  }
+  .page-main__text-sedona{
+    width: 460px;
+    height: 350px;
+    left: 370px;
+    top: 78px;
+  }
+}
+}
+.page-main__tagline {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+.page-main__intro {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  font-family: "PT Sans", sans-serif;
+}
+}
+.page-main__header-content {
+  height: 225px;
+  padding: 0;
+  margin-top: 42px;
+  margin-bottom: 30px;
+  text-align: center;
+}
