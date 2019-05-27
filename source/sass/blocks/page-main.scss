@@ -1,8 +1,8 @@
 .page-main {
   padding-top: 56px;
 
-  border: 2px solid #930000;
 }
+
 
 @media (min-width: $tablet-width) {
   .page-main {
@@ -14,9 +14,9 @@
 @media (min-width: $desktop-width) {
   .page-main {
     width: 1200px;
-
   }
 }
+
 .page-main__background-image {
   padding: 0;
   margin: 0;
@@ -56,7 +56,6 @@
   background-position: center;
   background-size: contain;
   z-index: 1;
-
 
 }
 @media (min-width: $tablet-width){

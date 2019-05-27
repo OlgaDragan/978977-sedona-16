@@ -1,0 +1,169 @@
+.offer {
+  font-family: $page-font;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.offer__wrapper {
+  min-height: 286px;
+}
+
+.offer__question {
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 26px 0 0 0;
+
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: $main-text-color;
+}
+
+.offer__description {
+  width: 270px;
+  margin: 0 auto 35px;
+  padding: 0;
+
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: $reasons-text;
+}
+
+.offer__open-search {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  height: 32px;
+  background-color: #81b3d2;
+  padding-top: 18px;
+  padding-bottom: 14px;
+  margin-left: 20px;
+  font-family: $page-font;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    background-color: #669ec0;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
+  }
+}
+
+.offer__map {
+  width: 100%;
+  min-height: 350px;
+}
+
+@media (min-width: $tablet-width) {
+  .offer__wrapper {
+    min-height: 318px;
+  }
+
+  .offer__description {
+    width: 450px;
+    margin: 0 auto 42px auto;
+  }
+
+  .offer__question {
+    margin: 0 0 31px 0;
+    padding: 56px 0 0 0;
+
+    font-size: 30px;
+  }
+
+  .offer__open-search {
+    width: 458px;
+    margin-left: 155px;
+    margin-right: 155px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .offer__wrapper {
+    min-height: 331px;
+  }
+
+  .offer__description {
+    margin: 0 auto 47px auto;
+  }
+
+  .offer__open-search {
+    width: 458px;
+    margin-left: 370px;
+
+  }
+}
+
+.visually-hidden {
+  font-size: 1px;
+  letter-spacing: -1px;
+  color: transparent;
+}
+
+.map {
+  background-color: #f3f1ed;
+  background-image: url("../img/bg-map-mobile@1x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg-map-mobile@2x.jpg");
+    background-size: 320px auto;
+  }
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/bg-map-tablet@1x.jpg");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-map-tablet@2x.jpg");
+      background-size: 768px auto;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/bg-map-desktop@1x.jpg");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-map-desktop@2x.jpg");
+      background-size: 1200px auto;
+    }
+  }
+
+  .map__inter-map {
+    width: 100%;
+    height: 350px;
+
+    border: 0;
+  }
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/bg-map-tablet@1x.jpg");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-map-tablet@2x.jpg");
+      background-size: 768px auto;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/bg-map-desktop@1x.jpg");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-map-desktop@2x.jpg");
+      background-size: 1200px auto;
+    }
+  }
+}

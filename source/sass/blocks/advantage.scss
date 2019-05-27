@@ -6,8 +6,8 @@
   list-style: none;
   padding: 0;
   margin: 0;
-
 }
+
 .page-list__item {
 
   list-style: none;
@@ -18,64 +18,7 @@
   margin: 0;
 
 }
-.reason__description {
 
-  margin-top: 0px;
-  padding-top: 42px;
-  padding-bottom: 42px;
-  padding-left: 25px;
-  padding-right: 25px;
-  height: 150px;
-  background-color: #81b3d2;
-
-  &::after {
-    position: absolute;
-    content: "";
-    background-image: url(../img/bg-intro-triangle-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    fill: #81b3d2;
-    //не поменялся цвет
-    top: -13px;
-    left: 0;
-    width: 320px;
-    height: 60px;
-
-  }
-}
-.reason__description {
-  color: #ffffff;
-
-}
-.reason__title {
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: bold;
-  padding: 0;
-
-}
-.reason__number {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: normal;
-}
-.reason__text {
-  font-size: 14px;
-  line-height: 21px;
-  padding-bottom: 42px;
-
-}
-.reason__image {
-  display: flex;
-  width: 320px;
-  height: 260px;
-  background-image: url(../img/main-city-mobile@1x.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 0;
-  margin: 0;
-
-}
 .advantages-list {
   color: #000000;
   list-style: none;
@@ -84,13 +27,8 @@
   padding-right: 37px;
   margin: 0;
   background-color: #ffffff;
-
 }
-.reason-first__list {
-  margin: 0;
-  padding: 0;
 
-}
 .advantage__title {
   font-size: 18px;
   line-height: 26px;
@@ -100,54 +38,4 @@
   line-height: 21px;
   padding-top: 17px;
   padding-bottom: 31px;
-}
-.reason__image-two {
-  display: flex;
-  width: 320px;
-  height: 260px;
-  background-image: url(../img/main-bridge-mobile@1x.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-
-}
-.reason-two {
-  padding-top: 42px;
-  background-color: #81b3d2;
-
-}
-.reason {
-  margin: 0;
-  padding: 0;
-
-}
-.reason__description-last {
-
-  margin: 0;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background-color: #eeeeee;
-  &::after {
-    content: "";
-    width: 280px;
-    height: 1px;
-    background: #d6d6d6;
-    left: 0;
-    position: absolute;
-    top: 1670px;
-    left: 20px;
-  }
-}
-
-.reason__title-last {
-
-  color: #000000;
-}
-.reason__number-last {
-  color: #000000;
-
-}
-.reason__text-last {
-  color: #000000;
-
 }

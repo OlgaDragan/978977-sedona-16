@@ -1,0 +1,168 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  height: 244px;
+  padding-top: 1px;
+
+  text-transform: uppercase;
+  font-family: $page-font;
+  text-align: center;
+  color: $main-text-color;
+}
+
+.page-footer__hash-wrapper {
+  margin: 0 0 37px 0;
+  padding: 35px 0 0 0;
+}
+
+.page-footer__hash {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 120px;
+  }
+
+  .page-footer__hash-wrapper {
+    margin: 0 0 0 60px;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer__hash-wrapper {
+    margin: 0 0 0 121px;
+    padding: 0;
+  }
+}
+
+.social {
+  width: 152px;
+  margin: 0 auto 37px auto;
+}
+
+.social__list {
+  @include list-reset;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.social__item {
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+
+  background-color: $main-blue;
+
+  &:hover,
+  &:focus {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+  }
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  position: relative;
+
+  display: block;
+  width: 46px;
+  height: 48px;
+
+  vertical-align: middle;
+}
+
+.social__link-svg {
+  position: absolute;
+  top: 17px;
+  left: 14px;
+}
+
+.social__link-svg--fb {
+  top: 14px;
+  left: 19px;
+}
+
+.social__link:active .social__link-svg {
+  fill: #88b6d1;
+}
+
+
+@media (min-width: $tablet-width) {
+  .social {
+    margin: 0 0 0 111px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .social {
+    margin: 0 0 0 267px;
+  }
+}
+.copyright {
+  width: 146px;
+  padding: 0 0 20px 8px;
+  margin: 0 auto;
+
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.copyright__text {
+  margin-right: 7px;
+}
+
+.copyright__link {
+  position: relative;
+
+  display: inline-block;
+  width: 35px;
+  height: 40px;
+
+  vertical-align: middle;
+}
+
+.copyright__link:hover .copyright__link-svg,
+.copyright__link:focus .copyright__link-svg {
+  fill: $main-blue;
+}
+
+.copyright__link:active .copyright__link-svg {
+  fill: #b2b2b2;
+}
+
+.copyright__link-svg {
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    margin: 0 0 0 120px;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .copyright {
+    margin: 0 0 0 276px;
+  }
+}

@@ -1,34 +1,31 @@
 .page-header {
   display: flex;
-  flex-direction: column;
+
   font-size: 18px;
   line-height: 40px;
   list-style: none;
   color: #ffffff;
-  font-family: "PT Sans", "Arial", sans-serif;
+
   text-align: center;
   margin-top: 0;
   padding-top: 0;
 
-  border: 1px solid #06a315;
 }
 @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
   background-color: #ffffff;
 }
 .page-header__logo {
-
   position: absolute;
-  top: 223px;
-  background-color: #8406a3;
+  top: 240px;
+
   background-image: url("../img/logo-sedona-mobile.svg");
   background-repeat: no-repeat;
   height: 83px;
   width: 102px;
   margin-left: 109px;
   margin-right: 109px;
+  z-index: 5;
 }
-
-
 
 @media (min-width: $tablet-width) {
 
