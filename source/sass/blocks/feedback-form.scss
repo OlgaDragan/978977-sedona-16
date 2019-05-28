@@ -26,7 +26,10 @@
 	text-transform: uppercase;
 	text-align: center;
 }
-.feedback-form__item--name, .feedback-form__item--contacts, .feedback-form__item--genfeedback, .feedback-form__item--visited-places {
+.feedback-form__item--name,
+.feedback-form__item--contacts,
+.feedback-form__item--genfeedback,
+.feedback-form__item--visited-places {
 	&::after {
 		position: absolute;
 		content: "";
