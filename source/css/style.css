@@ -1964,7 +1964,10 @@ body {
   text-transform: uppercase;
   text-align: center; }
 
-.feedback-form__item--name::after, .feedback-form__item--contacts::after, .feedback-form__item--genfeedback::after, .feedback-form__item--visited-places::after {
+.feedback-form__item--name::after,
+.feedback-form__item--contacts::after,
+.feedback-form__item--genfeedback::after,
+.feedback-form__item--visited-places::after {
   position: absolute;
   content: "";
   width: 320px;
@@ -2078,7 +2081,10 @@ body {
         -ms-flex-pack: start;
             justify-content: flex-start;
     text-transform: none; }
-  .feedback-form__item--name::after, .feedback-form__item--contacts::after, .feedback-form__item--genfeedback::after, .feedback-form__item--visited-places::after {
+  .feedback-form__item--name::after,
+  .feedback-form__item--contacts::after,
+  .feedback-form__item--genfeedback::after,
+  .feedback-form__item--visited-places::after {
     display: none; }
   .feedback-form__item--contacts {
     -webkit-box-ordinal-group: 4;
