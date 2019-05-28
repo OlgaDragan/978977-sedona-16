@@ -1,33 +1,24 @@
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 body {
-  font-family: "PT Sans", "Arial", sans-serif;
-  color: #ffffff;
-
-  text-transform: uppercase;
-  text-align: center;
-
+	font-family: "PT Sans", "Arial", sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
 }
 @media (min-width: $desktop-width) {
-  background-color: #f2f2f2;
+	background-color: #f2f2f2;
 }
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
+*, *::after, *::before {
+	box-sizing: inherit;
 }
-
 a {
-  text-decoration: none;
-  background-color: transparent;
-  
+	text-decoration: none;
+	background-color: transparent;
 }
-
 img {
-  max-width: 100%;
-  height: auto;
-  border-style: none;
+	max-width: 100%;
+	height: auto;
+	border-style: none;
 }
