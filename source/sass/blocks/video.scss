@@ -122,7 +122,7 @@
 		width: 648px;
 		min-height: 784px;
 		margin: 0 auto;
-		padding-bottom: 41px;
+		padding-bottom: 59px;
 	}
 	.video__outline {
 		height: 244px;
@@ -175,7 +175,7 @@
 	.video__control {
 		flex-wrap: nowrap;
 		align-items: center;
-		width: 555px;
+		width: 100%;
 		min-height: 93px;
 		margin: -100px auto 0 auto;
 		padding-left: 93px;
@@ -207,7 +207,7 @@
 	.video {
 		width: 800px;
 		margin: 0 auto;
-		padding-bottom: 81px;
+		padding-bottom: 95px;
 	}
 	.video__outline {
 		margin-bottom: 3px;
@@ -227,7 +227,7 @@
 		color: #333333;
 	}
 	.video__control {
-		width: 705px;
+		width: 100%;
 	}
 	.video__line {
 		width: 540px;

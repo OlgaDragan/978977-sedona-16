@@ -38,6 +38,8 @@
 		background-color: #e5e5e5;
 	}
 	&:active, &:focus {
+		min-width: 44px;
+		min-height: 50px;
 		outline: none;
 		background-color: $white;
 		border: 3px solid #e5e5e5;

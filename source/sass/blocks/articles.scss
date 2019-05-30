@@ -24,6 +24,7 @@
 	height: 395px;
 	margin: -1px auto 0 auto;
 	padding-top: 22px;
+	margin-bottom: 21px;
 	font-family: $page-font;
 	&::after {
 		position: absolute;
@@ -37,6 +38,7 @@
 }
 .article__link {
 	display: block;
+
 }
 .article__image {
 	display: block;
@@ -53,7 +55,7 @@
 }
 .article__author-wrapper {
 	margin: 0;
-	padding: 0;
+	padding-left: 0;
 	width: 185px;
 }
 .article__title {
@@ -113,8 +115,9 @@
 	.article__outline {
 		display: flex;
 		flex-direction: row;
-		width: 150px;
-		padding-left: 21px;
+		width: 100%;
+		justify-content: space-between;
+		padding-right: 31px;
 		background-color: $background;
 	}
 	.article__likes {
@@ -123,8 +126,7 @@
 		background-color: $background;
 		font-weight: bold;
 		&--first {
-			padding-right: 21px;
-			margin-left: 353px;
+			margin-left: 374px;
 			padding-top: 12px;
 		}
 	}
@@ -137,6 +139,9 @@
 	}
 	.article__author {
 		text-transform: none;
+	}
+	.article__author-wrapper {
+		padding-left: 21px;
 	}
 }
 @media (min-width: $desktop-width) {
@@ -163,10 +168,11 @@
 	.article__outline {
 		position: absolute;
 		bottom: 0;
-		width: 379px;
-		min-height: 65px;
+		height: 80px;
 		padding-top: 15px;
+		padding-right: 30px;
 		background-color: rgba(0, 0, 0, 0.3);
+		justify-content: space-between;
 		&--first {
 			width: 1178px;
 		}
@@ -184,8 +190,6 @@
 		margin-left: 105px;
 		padding-top: 13px;
 		&--first {
-			padding-right: 21px;
-			margin-left: 905px;
 			padding-top: 13px;
 		}
 	}

@@ -30,6 +30,7 @@
 	padding-top: 20px;
 	padding-bottom: 0;
 	margin: 0;
+	margin-bottom: 38px;
 }
 .reason__description {
 	margin-top: 15px;
@@ -38,7 +39,7 @@
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 15px;
-	height: 200px;
+	height: 217px;
 	background-color: #81b3d2;
 }
 .reason__description--accent {
@@ -74,6 +75,7 @@
 	height: 260px;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-color: #81b3d2;
 	padding-top: 0;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -81,6 +83,8 @@
 }
 .reason__img {
 	display: block;
+	width: 320px;
+	height: 260px;
 }
 .reason-first__list {
 	margin: 0;
@@ -190,8 +194,8 @@
 }
 @media (min-width: $tablet-width) {
 	.reason__description {
-		min-width: 206px;
-		height: 246px;
+		min-width: 256px;
+		height: 256px;
 		padding-top: 0;
 		padding-left: 25px;
 		padding-right: 25px;
@@ -219,6 +223,7 @@
 		height: 330px;
 		padding-bottom: 0;
 		margin-top: -20px;
+		margin-bottom: 20px;
 	}
 	.reason-first__list {
 		margin-top: 20px;
@@ -228,6 +233,10 @@
 		padding-top: 48px;
 		padding-left: 0;
 		text-align: center;
+	}
+	.reason__img {
+		width: 512px;
+		height: 256px;
 	}
 	.reason__image-wrapper {
 		width: 512px;
@@ -241,7 +250,7 @@
 		width: 167px;
 	}
 	.reason__text {
-		width: 170px;
+		width: 158px;
 		margin: 7px auto 0;
 		padding-bottom: 0;
 		color: #333333;
@@ -251,7 +260,7 @@
 	}
 	.reason__text-last {
 		color: #333333;
-		width: 168px;
+		width: 215px;
 		text-align: center;
 		padding-left: 45px;
 		padding-top: 7px;
@@ -295,11 +304,10 @@
 		font-size: 21px;
 	}
 	.reason__text--city {
-		padding-left: 18px;
-		padding-right: 15px;
 		padding-top: 20px;
 		margin: 0;
 		color: #ffffff;
+		margin-left: 20px;
 	}
 	.reasons__hr::after {
 		display: none;
@@ -311,17 +319,22 @@
 		height: 256px;
 		padding-top: 50px;
 	}
+	.reason__img {
+		width: 100%;
+		height: 400px;
+	}
 	.reason__description {
-		width: 350px;
+		width: 400px;
+		height: 256px;
 		padding-top: 47px;
 		padding-left: 25px;
 		padding-right: 25px;
 	}
 	.reason__image-wrapper {
-		width: 800px;
-		height: 256px;
-		overflow-y: hidden;
-	}
+    width: 800px;
+    height: 256px;
+    overflow-y: hidden;
+  }
 	.reason__title {
 		padding-top: 6px;
 		margin-bottom: 10px;

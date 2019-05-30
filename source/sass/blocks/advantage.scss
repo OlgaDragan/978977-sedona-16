@@ -4,19 +4,6 @@
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.page-list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.page-list__item {
-	list-style: none;
-	font-size: 14px;
-	line-height: 21px;
-	text-align: center;
-	padding: 0;
-	margin: 0;
-}
 .advantages-list {
 	color: #000000;
 	list-style: none;
@@ -35,4 +22,10 @@
 	line-height: 21px;
 	padding-top: 17px;
 	padding-bottom: 31px;
+}
+.advantage__sedona {
+	height: 380px;
+	padding-top: 20px;
+	padding-bottom: 0;
+	margin: 0;
 }
