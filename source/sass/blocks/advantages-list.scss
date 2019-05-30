@@ -1,0 +1,140 @@
+.advantages-list {
+	@include list-reset();
+	display: flex;
+	flex-direction: column;
+	min-height: 397px;
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.advantages-list__item {
+	position: relative;
+	width: 277px;
+	height: auto;
+	padding: 16px 0 0 70px;
+	margin: 0 0 10px 0;
+	&::before {
+		position: absolute;
+		content: "";
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 36px 36px;
+	}
+}
+.advantage--house::before {
+	top: 7px;
+	left: 22px;
+	width: 37px;
+	height: 36px;
+	background-image: url("../img/icon-house.svg");
+}
+.advantage--gift::before {
+	top: 7px;
+	left: 22px;
+	width: 37px;
+	height: 36px;
+	background-image: url("../img/icon-gift.svg");
+}
+.advantage--burger::before {
+	top: 12px;
+	left: 19px;
+	width: 37px;
+	height: 36px;
+	background-image: url("../img/icon-burger.svg");
+}
+.advantage__title {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+	color: $main-text-color;
+}
+.advantage__text {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #333333;
+}
+@media (min-width: $tablet-width) {
+	.advantages-list {
+		@include list-reset();
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		min-height: 330px;
+		text-align: center;
+		padding-bottom: 60px;
+	}
+	.advantages-list__item {
+		padding: 160px 0 0;
+		margin: 0;
+		text-align: center;
+		width: 256px;
+	}
+	.advantage--gift {
+		order: 2;
+	}
+	.advantage--house::before {
+		width: 75px;
+		height: 72px;
+		background-size: 75px 72px;
+		top: 60px;
+		left: 89px;
+	}
+	.advantage--burger::before {
+		width: 77px;
+		height: 68px;
+		background-size: 77px 68px;
+		top: 62px;
+		left: 88px;
+	}
+	.advantage--gift::before {
+		width: 64px;
+		height: 75px;
+		background-size: 64px 75px;
+		top: 57px;
+		left: 94px;
+	}
+	.advantage__title {
+		font-size: 21px;
+	}
+	.advantage__text {
+		width: 158px;
+		margin: 0 auto;
+		padding-top: 7px;
+	}
+	.advantage--gift .advantage__text {
+		width: 170px;
+	}
+}
+@media (min-width: $desktop-width) {
+	.advantages-list {
+		padding-bottom: 81px;
+	}
+	.advantages-list__item {
+		width: 400px;
+	}
+	.advantage--house::before {
+		left: 161px;
+	}
+	.advantage--gift::before {
+		left: 167px;
+	}
+	.advantage--burger::before {
+		left: 161px;
+	}
+	.advantage__text {
+		width: 300px;
+	}
+	.advantage--gift .advantage__text {
+		width: 200px;
+	}
+	.reason-two {
+		margin-top: 76px;
+		width: 1200px;
+	}
+}

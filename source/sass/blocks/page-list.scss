@@ -8,5 +8,22 @@
 	font-size: 14px;
 	line-height: 21px;
 	text-align: center;
-	padding: 0;	
+	padding: 0;
+}
+.page-list__item {
+	position: relative;
+	width: 100%;
+	min-height: 151px;
+	padding-top: 21px;
+	font-family: $page-font;
+	text-align: center;
+	text-transform: uppercase;
+	color: $white;
+}
+@media (min-width: $tablet-width) {
+.page-list__item {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+}
 }
